@@ -16,9 +16,9 @@ export default function MovieDetails() {
   return (
     <>
       <div>
-        <h2 className="text-6xl mb-6 px-7 py-3 text-center mt-6 border-2 border-black shadow-md bg-gray-700 text-white rounded">
+        <h1 className="text-6xl mb-6 px-7 py-3 text-center mt-6 border-2 border-black shadow-md bg-gray-600 text-white rounded">
           Movie Details
-        </h2>
+        </h1>
         <div>
           {moviesDetails.map((movie) => (
             <ul>
